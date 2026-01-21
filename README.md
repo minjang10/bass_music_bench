@@ -8,7 +8,11 @@ Min Jang, Orevaghene Ahia, Nazif Tamer, Sachin Kumar, Yulia Tsvetkov, Noah A. Sm
 ## Run Evaluation
 Change `model_name` in `run_evaluation.py` to your model
 ```
-python run_evaluation.py --categories all --output-dir results
+python run_evaluation.py --category all --output-dir results
+```
+#### Single Task Evaluation
+```
+python run_evaluation.py --category structural-segmentation --output-dir results
 ```
 
 ## Compute Performance
